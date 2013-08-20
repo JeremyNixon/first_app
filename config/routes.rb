@@ -1,4 +1,12 @@
 FirstApp::Application.routes.draw do
+  get "static_pages/home"
+
+  get "static_pages/essays"
+
+  get "static_pages/thoughts"
+
+  get "static_pages/books"
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
